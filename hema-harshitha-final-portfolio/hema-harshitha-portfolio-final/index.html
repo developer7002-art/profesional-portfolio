@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hema Harshitha Arli — Computer Science student, aspiring security engineer and creator of HEMAZHUB.">
+  <meta name="theme-color" content="#050a14">
+  <title>Hema Harshitha Arli | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-left"></div><div class="ambient ambient-right"></div>
+  <header class="topbar">
+    <a href="#" class="brand" data-page="home"><span class="brand-avatar"><img src="assets/profile-photo.png" alt="Hema Harshitha Arli"></span><span>HEMA HARSHITHA ARLI</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <button class="nav-btn active" data-page="home">⌂ <span>Home</span></button>
+      <button class="nav-btn" data-page="about">♙ <span>About</span></button>
+      <button class="nav-btn" data-page="education">▤ <span>Education</span></button>
+      <button class="nav-btn" data-page="skills">⌘ <span>Skills</span></button>
+      <button class="nav-btn" data-page="projects">▣ <span>Projects</span></button>
+      <button class="nav-btn" data-page="certifications">♢ <span>Certificates</span></button>
+      <button class="nav-btn" data-page="achievements">☆ <span>Achievements</span></button>
+      <button class="nav-btn" data-page="hemazhub">▷ <span>HEMAZHUB</span></button>
+      <button class="nav-btn" data-page="contact">✉ <span>Contact</span></button>
+    </nav>
+    <div class="theme-tools">
+      <span class="theme-label">THEME</span>
+      <button class="theme-dot gold active" data-theme="gold" aria-label="Gold theme" title="Gold"></button>
+      <button class="theme-dot blue" data-theme="blue" aria-label="Blue theme" title="Blue"></button>
+      <button class="theme-dot violet" data-theme="violet" aria-label="Violet theme" title="Violet"></button>
+    </div>
+    <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="page active" id="page-home" aria-label="Home">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="live-label"><i></i> CURIOUS MIND · BUILDING MY FUTURE</div>
+          <p class="hello">HELLO, I'M</p>
+          <h1>Hema Harshitha<br><em>Arli</em><span class="crown">♛</span></h1>
+          <h2>Computer Science Student <b>|</b> Aspiring Security Engineer</h2>
+          <p class="hero-description">A curious learner, builder and creator passionate about <strong>Cybersecurity, Cloud Security</strong> and <strong>Web Development</strong>. I love turning ideas into practical solutions and sharing knowledge through HEMAZHUB.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" data-page="projects">✦ &nbsp; View My Work <span>↗</span></button>
+            <a class="outline-btn" href="mailto:hemaharshitha510@gmail.com">✉ &nbsp; Contact Me</a>
+            <button class="text-btn" data-page="about">Discover my story ↗</button>
+          </div>
+          <div class="stats-row">
+            <div class="stat"><b>9.2</b><span>CGPA</span></div>
+            <div class="stat"><b>2</b><span>FEATURED PROJECTS</span></div>
+            <div class="stat"><b>2</b><span>CERTIFICATIONS</span></div>
+            <div class="stat"><b>1</b><span>CHESS AWARD</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="halo halo-one"></div><div class="halo halo-two"></div>
+          <div class="portrait-shell">
+            <div class="portrait-top"><span>PORTFOLIO / 2026</span><span>01 — 09</span></div>
+            <img src="assets/profile-photo.png" alt="Professional portrait of Hema Harshitha Arli">
+            <div class="portrait-bottom"><span>HEMA HARSHITHA ARLI</span><span>CS · CYBERSECURITY</span></div>
+          </div>
+          <div class="floating-code"><span>const</span> passion = <b>"technology";</b><br><span>const</span> goal = <b>"keep_building";</b></div>
+          <div class="floating-badge"><b>9.2</b><span>ACADEMIC<br>CGPA</span></div>
+          <div class="orbit-caption">LEARN <i>✦</i> BUILD <i>✦</i> GROW</div>
+        </div>
+      </div>
+      <div class="home-shortcuts">
+        <button data-page="about"><span>♙</span> About Me <small>My story</small></button>
+        <button data-page="education"><span>▤</span> Education <small>Academic journey</small></button>
+        <button data-page="skills"><span>⌘</span> Technical Skills <small>My toolkit</small></button>
+        <button data-page="projects"><span>▣</span> Projects <small>Things I've built</small></button>
+        <button data-page="certifications"><span>♢</span> Certifications <small>Learning milestones</small></button>
+        <button data-page="achievements"><span>☆</span> Achievements <small>Moments that matter</small></button>
+        <button data-page="hemazhub"><span>▷</span> HEMAZHUB <small>My initiative</small></button>
+        <button data-page="contact"><span>➤</span> Contact Me <small>Let's connect</small></button>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-about">
+      <div class="page-heading"><div class="eyebrow">01 / THE PERSON BEHIND THE PROFILE</div><h2>More than a title.<br><em>A journey in progress.</em></h2><p>Get to know the learner, builder and creator behind the work.</p></div>
+      <div class="about-grid">
+        <div class="about-feature glass-card"><div class="mini-label">A LITTLE ABOUT ME</div><h3>Curiosity is where<br>my journey begins.</h3><p>I am a B.Tech Computer Science and Engineering student specializing in Cybersecurity at Sir C.R. Reddy College of Engineering, Eluru.</p><p>I enjoy exploring how technology works, developing practical projects and learning how digital systems can be made safer and more useful. My current interests include cybersecurity, cloud security and web development.</p><p>I believe in continuous learning, practical implementation and turning ideas into meaningful solutions.</p><div class="interest-tags"><span>Cybersecurity</span><span>Cloud Security</span><span>Web Development</span><span>Content Creation</span></div></div>
+        <div class="about-side">
+          <div class="glass-card quote-card"><span class="quote-mark">“</span><h3>Learn with curiosity.<br>Build with purpose.</h3><p>A personal principle that guides the way I approach technology and growth.</p></div>
+          <div class="glass-card location-card"><span class="mini-label">BASED IN</span><h3>Eluru, Andhra Pradesh</h3><p>India · Open to learning and professional opportunities</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-education">
+      <div class="page-heading"><div class="eyebrow">02 / ACADEMIC FOUNDATION</div><h2>Education &<br><em>academic journey.</em></h2><p>A strong foundation, with plenty more to learn.</p></div>
+      <div class="education-timeline">
+        <article class="education-card featured"><div class="edu-date">2025 — 2029 <span>CURRENT DEGREE</span></div><div class="edu-icon">🎓</div><div><h3>Bachelor of Technology</h3><h4>Computer Science & Engineering — Cybersecurity</h4><p>Sir C.R. Reddy College of Engineering, Eluru</p></div><div class="grade"><b>9.2</b><span>CGPA</span></div></article>
+        <article class="education-card"><div class="edu-date">INTERMEDIATE</div><div class="edu-icon">▤</div><div><h3>Intermediate Education</h3><h4>Sri Chaitanya Junior College</h4><p>Eluru, Andhra Pradesh</p></div><div class="grade"><b>98%</b><span>RESULT</span></div></article>
+        <article class="education-card"><div class="edu-date">SCHOOLING</div><div class="edu-icon">✎</div><div><h3>Secondary Education</h3><h4>Sri Surya English Medium High School</h4><p>Eluru, Andhra Pradesh</p></div><div class="grade"><b>97%</b><span>RESULT</span></div></article>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-skills">
+      <div class="page-heading"><div class="eyebrow">03 / MY TOOLKIT</div><h2>Technologies I <em>explore.</em></h2><p>A growing skill set built through learning, practice and projects.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><span class="mini-label">01 / PROGRAMMING</span><h3>Programming Languages</h3><div class="skill-pills"><span>C</span><span>Python</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▧</div><span class="mini-label">02 / FRONT END</span><h3>Web Development</h3><div class="skill-pills"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌘</div><span class="mini-label">03 / DEVELOPMENT</span><h3>Tools & Platforms</h3><div class="skill-pills"><span>Firebase</span><span>GitHub</span><span>VS Code</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⛨</div><span class="mini-label">04 / AREAS OF INTEREST</span><h3>Currently Exploring</h3><div class="skill-pills"><span>Cybersecurity</span><span>Cloud Security</span><span>Networking</span></div></article>
+      </div>
+      <div class="notice-strip">MY TOOLKIT IS ALWAYS EVOLVING <span>Learning by building, practising and staying curious. ✦</span></div>
+    </section>
+
+    <section class="page content-page" id="page-projects">
+      <div class="page-heading"><div class="eyebrow">04 / SELECTED WORK</div><h2>Ideas turned into <em>projects.</em></h2><p>Practical builds that help me learn, experiment and improve.</p></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview sports-preview"><div class="browser-chrome"><i></i><i></i><i></i><span>SPORTSFEST / 2026</span></div><div class="preview-content"><small>COLLEGE EVENT PORTAL</small><h3>PLAY YOUR<br><em>GAME.</em></h3><span class="preview-cta">EXPLORE EVENTS ↗</span></div><div class="preview-orb">✦</div></div>
+          <div class="project-info"><div class="project-index">PROJECT 01 <span>EVENT MANAGEMENT</span></div><h3>Sports Fest Registration Portal</h3><p>A college sports-event portal designed to share event information and support student registrations.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div><a href="https://developer7002-art.github.io/sportfest-registration-portal/" target="_blank" rel="noopener" class="project-link" role="button">VIEW LIVE PROJECT <b>↗</b></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview lost-preview"><div class="browser-chrome"><i></i><i></i><i></i><span>CAMPUSFIND / LOST & FOUND</span></div><div class="preview-content"><small>CAMPUS UTILITY PLATFORM</small><h3>LOST IT?<br><em>FIND IT.</em></h3><span class="preview-cta">FIND AN ITEM ↗</span></div><div class="preview-orb">⌕</div></div>
+          <div class="project-info"><div class="project-index">PROJECT 02 <span>CAMPUS SOLUTION</span></div><h3>Campus Lost & Found</h3><p>A campus-based platform for reporting lost and found items and helping users identify possible matches.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div><a href="https://developer7002-art.github.io/campus-lost-found/" target="_blank" rel="noopener" class="project-link" role="button">VIEW LIVE PROJECT <b>↗</b></a></div>
+        </article>
+      </div>
+      <div class="coming-strip"><span>✦</span><div><b>MORE PROJECTS ARE IN PROGRESS</b><p>New builds will be added as I continue learning and creating.</p></div><small>TO BE CONTINUED</small></div>
+    </section>
+
+    <section class="page content-page" id="page-certifications">
+      <div class="page-heading"><div class="eyebrow">05 / LEARNING MILESTONES</div><h2>Certifications &<br><em>workshops.</em></h2><p>Every new concept adds another tool to my journey.</p></div>
+      <div class="certificate-grid">
+        <article class="certificate-card"><div class="certificate-art mentiby-art"><span>MENTIBY</span><b>AI<br>ZERO TO<br>HERO</b><small>WORKSHOP</small></div><div class="certificate-info"><span class="mini-label">31 OCTOBER 2026 · PARTICIPATION</span><h3>MentiBY — AI Zero to Hero Workshop</h3><p>Certificate of Participation</p><a href="assets/mentiby-workshop-certificate.pdf" target="_blank" rel="noopener" role="button">VIEW CERTIFICATE ↗</a></div></article>
+        <article class="certificate-card"><div class="certificate-art fcc-art"><span>freeCodeCamp</span><b>RESPONSIVE<br>WEB DESIGN</b><small>CERTIFICATION</small></div><div class="certificate-info"><span class="mini-label">FREECODECAMP</span><h3>Responsive Web Design</h3><p>Web design certification</p><a href="https://freecodecamp.org/certification/hemaharshitha/responsive-web-design-v9" target="_blank" rel="noopener">VIEW CERTIFICATE ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-achievements">
+      <div class="page-heading"><div class="eyebrow">06 / MOMENTS THAT MATTER</div><h2>Achievements &<br><em>recognition.</em></h2><p>Small milestones that motivate me to keep moving forward.</p></div>
+      <div class="achievement-layout">
+        <div class="achievement-feature"><div class="chess-symbol">♟</div><div class="achievement-ribbon">COLLEGE COMPETITION</div><h3>Third Place<br><em>in Chess.</em></h3><p>Participated in a chess competition and secured 3rd place representing my college.</p><span class="achievement-number">ACHIEVEMENT / 001</span></div>
+        <div class="achievement-side"><div class="glass-card"><span class="mini-label">ACADEMIC MILESTONE</span><b>9.2</b><h3>B.Tech CGPA</h3><p>Current academic performance</p></div><div class="glass-card"><span class="mini-label">A CONSISTENT FOUNDATION</span><b>98% <i>·</i> 97%</b><h3>Intermediate & School</h3><p>Academic results</p></div><p class="note">A physical certificate is available for the chess achievement. A digital copy can be added to this portfolio later.</p></div>
+      </div>
+    </section>
+
+    <section class="page content-page" id="page-hemazhub">
+      <div class="hemaz-hero">
+        <div class="hemaz-copy"><div class="eyebrow">07 / MY EDUCATIONAL INITIATIVE</div><div class="hemaz-brand-lockup"><img class="hemaz-brand-logo" src="assets/hemazhub-logo.jpeg" alt="HemaZHub official logo"><div class="hemaz-wordmark">HEMA<span class="z-spectrum">Z</span>HUB<span class="logo-star">✦</span></div></div><h2>Making technical learning<br><em>simple, structured & engaging.</em></h2><p>HEMAZHUB is my educational initiative where I create beginner-friendly programming lessons, technical notes and learning content. It brings together my interest in technology, communication and creative teaching.</p><div class="hemaz-actions"><a href="https://youtube.com/@hemaz_hub" target="_blank" rel="noopener" class="primary-btn">▶ &nbsp; Visit YouTube <span>↗</span></a><a href="https://www.instagram.com/hemaz_hub/" target="_blank" rel="noopener" class="outline-btn">◎ &nbsp; Instagram <span>↗</span></a></div></div>
+        <div class="hemaz-visual"><div class="hemaz-screen"><div class="screen-top"><i></i><i></i><i></i><span>HEMAZHUB / LEARN</span></div><div class="screen-inner"><span>YOUR LEARNING SPACE</span><b>CODE YOUR<br><em>FUTURE.</em></b><small>Learn · Practise · Grow</small><div class="screen-bars"><i></i><i></i><i></i></div></div></div></div>
+      </div>
+      <div class="hemaz-facts"><div><b>FOUNDER</b><span>Personal initiative</span></div><div><b>PROGRAMMING</b><span>Beginner-friendly lessons</span></div><div><b>CONTENT</b><span>Notes, videos & resources</span></div></div>
+    </section>
+
+    <section class="page content-page" id="page-contact">
+      <div class="contact-layout"><div><div class="eyebrow">08 / LET'S CONNECT</div><h2>Let's create<br>something <em>meaningful.</em></h2><p>I'm interested in learning, collaborating and exploring opportunities to grow. Feel free to connect with me.</p><a class="primary-btn email-button" href="mailto:hemaharshitha510@gmail.com">✉ &nbsp; GET IN TOUCH <span>↗</span></a></div><div class="contact-links"><a href="mailto:hemaharshitha510@gmail.com"><span>WRITE TO ME</span><b>Behind Every Great Idea Is a Conversation</b><i>↗</i></a><a href="https://www.linkedin.com/in/hema-harshitha-arli-2176a0448/" target="_blank" rel="noopener"><span>LINKEDIN</span><b>Connect professionally</b><i>↗</i></a><a href="https://github.com/account" target="_blank" rel="noopener"><span>GITHUB</span><b>GitHub profile</b><i>↗</i></a><a href="https://www.instagram.com/hemaz_hub/" target="_blank" rel="noopener"><span>INSTAGRAM</span><b>@hemaz_hub</b><i>↗</i></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a href="#" class="brand" data-page="home"><span class="brand-avatar"><img src="assets/profile-photo.png" alt="Hema Harshitha Arli"></span><span>HEMA HARSHITHA ARLI</span></a><p>Curiosity today. Capability tomorrow.</p><span>© <span id="year"></span> · BUILT WITH PURPOSE</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
